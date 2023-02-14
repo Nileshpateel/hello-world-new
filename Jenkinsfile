@@ -1,5 +1,5 @@
 pipeline{
-  agent
+  agent { label 'localhost' }
 stages{
     stage('build'){
         steps{
