@@ -1,5 +1,5 @@
 pipeline{
-agent(localhost)
+agent ( localhost )
 
 stages{
 stage('build'){
