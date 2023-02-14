@@ -8,6 +8,11 @@ stages{
 
                  }
      }
+  stage('There'){
+    steps{
+    echo "Hey there"
+    }
+  }
      }
 }
 
