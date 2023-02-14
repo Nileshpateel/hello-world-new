@@ -1,5 +1,5 @@
 pipeline{
-  agent { localhost }
+  agent { any }
 
 stages{
 stage('build'){
