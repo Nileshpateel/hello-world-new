@@ -4,8 +4,8 @@ stages{
     stage('build'){
         steps{
               echo "We are here"
-             
-
+              mkdir C:\Users\VICKY\Desktop\Test
+                  
                  }
      }
   stage('There'){
