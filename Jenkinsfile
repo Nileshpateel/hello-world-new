@@ -10,7 +10,7 @@ pipeline {
     
     stage('Copy HTML file to workspace') {
       steps {
-        bat 'cp index.html $WORKSPACE'
+        bat 'copy index.html $WORKSPACE'
       }
     }
     
