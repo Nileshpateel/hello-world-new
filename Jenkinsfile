@@ -16,7 +16,7 @@ pipeline {
     
     stage('Open HTML file in web browser') {
       steps {
-        start index.html
+        bat 'C:\Users\VICKY\AppData\Local\Jenkins\.jenkins\workspace\FromSCM\index.html'
       }
     }
   }
