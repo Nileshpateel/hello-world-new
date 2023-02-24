@@ -3,16 +3,12 @@ pipeline{
 stages{
     stage('build'){
         steps{
-              echo "We are here"
-              mkdir C:\Users\VICKY\Desktop\Test
+              echo "Hello, his is m firs SCM build"
+             // mkdir C:\Users\VICKY\Desktop\Test
                   
                  }
      }
-  stage('There'){
-    steps{
-    echo "Hey there"
-    }
-  }
+  
      }
 }
 
