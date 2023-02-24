@@ -16,7 +16,7 @@ pipeline {
     
     stage('Open HTML file in web browser') {
       steps {
-        bat 'start http://localhost:${env.JENKINS_HTTP_PORT}/index.html'
+        bat 'start http://localhost:8090/index.html'
       }
     }
   }
