@@ -16,7 +16,7 @@ pipeline {
     
     stage('Open HTML file in web browser') {
       steps {
-        bat 'index.html'
+        start index.html
       }
     }
   }
