@@ -16,7 +16,7 @@ pipeline {
     
     stage('Open HTML file in web browser') {
       steps {
-        bat 'xdg-open http://localhost:${env.JENKINS_HTTP_PORT}/index.html'
+        bat 'start http://localhost:${env.JENKINS_HTTP_PORT}/index.html'
       }
     }
   }
