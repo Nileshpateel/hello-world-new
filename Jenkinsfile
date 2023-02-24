@@ -10,7 +10,7 @@ stages{
                   }
   stage('Open HTML File') {
     steps {
-        sh 'open https://github.com/Nileshpateel/hello-world-new.git/index.html'
+        sh 'open index.html'
     }
 }
      }
