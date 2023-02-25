@@ -17,7 +17,7 @@ pipeline {
     stage('Open HTML file in web browser') {
       steps {
         echo 'we are here again'
-        start chrome "https://github.com/Nileshpateel/hello-world-new/blob/master/index.html" 
+        //start chrome "https://github.com/Nileshpateel/hello-world-new/blob/master/index.html" 
       }
     }
   }
